@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #f9f9f9;
+  color: #333;
+  padding: 0;
+  margin: 0;
+}
+
+/* Navbar */
+.navbar {
+  background-color: #0044cc;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+}
+
+/* Hero section */
+.hero {
+  background-color: #e6f0ff;
+  padding: 2rem;
+  text-align: center;
+  border-bottom: 2px solid #0044cc;
+}
+
+/* Button */
+.btn {
+  margin-top: 1rem;
+  padding: 0.6rem 1.2rem;
+  background-color: #0044cc;
+  color: white;
+  border: 2px solid #002a80;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.btn:hover {
+  background-color: #002a80;
+}
+
+/* Card sections */
+.card {
+  background-color: white;
+  margin: 1rem auto;
+  padding: 1rem;
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  max-width: 600px;
+  box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
+}
+
+/* Footer */
+.footer {
+  background-color: #0044cc;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  margin-top: 2rem;
+}
